@@ -1,0 +1,62 @@
+.container{
+    background: white;
+    width: 500px;
+    height: 550px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.container hr{
+    height: 2px;
+    border: none;
+    background: rgb(95, 76, 76);
+}
+
+ul li{
+    list-style: none;
+    height: 50px;
+    border: 2px solid black;
+    margin: 10px;
+    padding: 13px;
+    background: whitesmoke;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.index{
+    text-align: center;
+    font: 1rem;
+}
+
+.correct{
+    background: rgba(217, 255, 159, 0.321);
+    border-color: greenyellow;
+}
+
+.wrong{
+    background: rgba(237, 21, 21, 0.098);
+    border-color: red;
+}
+
+.container h2,h1{
+    padding-left: 10px;
+}
+
+.container button{
+    width: 120px;
+    height: 35px;
+    background: blueviolet;
+    margin-left: 170px;
+    color: white;
+    border-radius: 3px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+#res_heading{
+    text-align: center;
+}

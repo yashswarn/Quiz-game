@@ -1,0 +1,24 @@
+{
+	"folders": [
+		{
+			"name": "weather_app",
+			"path": "../../../weather_app"
+		},
+		{
+			"name": "hello.c",
+			"path": "../../../../hello.c"
+		},
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../Leetcode metric app"
+		},
+		{
+			"path": "../../basic_counter"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "basic_counter"
+	}
+}
