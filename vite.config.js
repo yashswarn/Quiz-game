@@ -6,4 +6,11 @@ import tailwindcss from '@tailwindcss/vite'
 export default defineConfig({
   plugins: [react(),tailwindcss(),],
   base:"/react-quiz-app",
+  build: {
+    rollupOptions: {
+      external: ['react-timer-hook']
+    }
+  }
 })
+
+
